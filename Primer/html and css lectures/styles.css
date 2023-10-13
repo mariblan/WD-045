@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  /* margin: 10px 20px 30px 40px; */
+  padding: 10px 20px;
+  background-color: rgb(144, 227, 238);
+  border: 1px solid black;
+}
+nav ul {
+  padding: 10px;
+  background-color: rgb(144, 227, 238);
+  height: 40px;
+  width: 300px;
+  margin: 0px auto;
+}
+nav ul li {
+  display: inline-block;
+  margin: 1px 10px;
+  padding: 2px;
+}
+/* nav a {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(144, 227, 238);
+  width: 40px;
+  border: 1px solid black;
+} */
+h1 {
+  font-size: 40px;
+  color: blueviolet;
+}
+
+h2 {
+  font-size: 30px;
+  color: blue;
+}
+h3 {
+  font-size: 20px;
+  color: green;
+}
+section {
+  margin: 10px;
+  padding: 10px;
+  background-color: beige;
+}
+
+.section {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+section section {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightblue;
+}
+section > .subsection {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+body #table {
+  margin: 80px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#table {
+  margin: 40px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#table {
+  margin: 60px;
+  padding: 20px;
+  border: 1px solid black;
+}
