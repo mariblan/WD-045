@@ -33,9 +33,13 @@ nav ul li {
   border: 1px solid black;
 } */
 
+/*
+  By Denis: 
+  Styles for centering h1 elements
+*/
 
 h1 {
-  text-align: center;
+  text-align: center; 
   font-size: 40px;
   color: blueviolet;
 }
