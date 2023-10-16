@@ -52,12 +52,11 @@ main > nav {
   right: 0px;
   /* margin: 10px 20px 30px 40px; */
   padding: 10px 20px;
-  background-color: rgb(144, 227, 238);
+  background-color: rgb(82, 204, 221);
   border: 1px solid black;
 }
 main > nav ul {
   padding: 10px;
-  background-color: rgb(144, 227, 238);
   height: 40px;
   width: 300px;
   margin: 0px auto;
@@ -74,7 +73,7 @@ main > nav ul li {
 
 h1 {
   font-size: 40px;
-  color: rgb(138, 44, 226);
+  color: rgb(76, 24, 124);
 }
 
 h2 {
