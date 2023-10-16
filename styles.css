@@ -31,7 +31,7 @@ header > nav > ul > li > a {
   font-size: 1.5rem;
 }
 header > nav > ul > li > a:hover {
-  font-size: 2rem;
+  font-size: 1.7rem; /* Changed from 2rem */
 }
 main {
   width: 80%;
