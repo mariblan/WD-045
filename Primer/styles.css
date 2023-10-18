@@ -1,25 +1,78 @@
-* {
-    box-sizing: border-box;
-}
-body > div > .main {
+
+.main {
     display: flex;
-    align-items: center;
-    width: 300px;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.472);
     padding: 20px;
-    border: 1px solid #949292;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.4);
 }
 
-section > div > div > .quote {
-    color: blueviolet;
-
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-section > div > div > .avatar {
-    width: 100px; /* Set the width and height of the profile picture */
-    height: 100px;
-    border-radius: 50%; /* Makes the profile picture circular */
-    object-fit: cover; /* Ensures the image covers the entire space */
-    margin-right: 20px; /* Adds space between the picture and text */
+.quote h3 {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0px 3px 5px #0596f7;
+}
+.picture {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    
+}
+.picture img {
+    margin: 10px;
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-image: url(Primer/resources/pngwing.com3.png);
+    background-size: 255px;
+    background-position-x: -54px;
+    background-position-y: -39px;
+    background-color: transparent;
+    box-shadow: 0px 0px 30px 2px #0596f7;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.alumni {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-image: url(Primer/resources/pngwing.com2.png);
+    background-position: center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.description p {
+    margin: 5px;
+    padding: 10px;
+
+    border: solid black;
+    border-radius: 25px;
+
 }
