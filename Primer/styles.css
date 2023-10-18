@@ -23,6 +23,7 @@
     font-weight: bold;
     text-shadow: 0px 3px 5px #0596f7;
 }
+
 .picture {
     display: flex;
     width: max-content;
@@ -30,14 +31,15 @@
     background-color: transparent;
     
 }
+
 .picture img {
+    background-image: url(Primer/resources/dpbackground.png);
     margin: 10px;
     padding: 20px;
     width: 120px;
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    background-image: url(Primer/resources/pngwing.com3.png);
     background-size: 255px;
     background-position-x: -54px;
     background-position-y: -39px;
@@ -60,9 +62,9 @@
 }
 
 .alumni {
+    background-image: url(Primer/resources/smallbackground.png);
     margin-bottom: 10px;
     padding: 5px;
-    background-image: url(Primer/resources/pngwing.com2.png);
     background-position: center;
     background-size: 24px;
     background-repeat: no-repeat;
@@ -71,7 +73,6 @@
 .description p {
     margin: 5px;
     padding: 10px;
-
     border: solid black;
     border-radius: 25px;
 
