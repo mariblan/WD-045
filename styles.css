@@ -106,7 +106,7 @@ h1 {
 
 .week {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
 }
 
 .week1Img {
@@ -159,6 +159,7 @@ h1 {
   padding: 0.5rem;
   margin: 1rem;
   border-radius: 25px;
+  max-width: 70vw;
 }
 
 .descriptWeek1, .descriptWeek2 {
@@ -171,7 +172,7 @@ h1 {
 }
 
 .advertisement {
-  width: 70%;
+  width: 40%;
   height: 70%;
   background-color: antiquewhite;
   border-radius: 25px;
