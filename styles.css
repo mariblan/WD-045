@@ -456,7 +456,7 @@ footer {
 .AboutContactClickables {
   display: inline-block;
   position: flex;
-  left: 5%;
+  margin-left: 10%;
 }
 
 .FooterClickables ul {
@@ -502,10 +502,11 @@ footer {
 }
 .AboutContactClickables li {
   background-color: lightblue;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 5px 5px;
+  border-radius: 10px;
   font-size: 18px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.932);
+  Margin: 5px;
 
 }
 .AboutContactClickables li:hover {
