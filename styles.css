@@ -4,6 +4,34 @@
   box-sizing: border-box;
 }
 /* NAVBAR START */
+header {
+  display: flex;
+  background-color: #C1DEEE ;
+  font-size: 22px;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  
+}
+
+#links {
+  display: none;
+}
+
+.ham-menu {
+  margin-right: 25px;
+  margin-left: auto;
+  padding: 5px 10px;
+  color: black;
+  background-color: #79baea;
+}
+
+h1 {
+  margin-left: 20px;
+}
 /* NAVBAR END */
 
 /* MAIN START */
