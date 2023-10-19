@@ -408,6 +408,12 @@ h1 {
 
 }
 
+.PSD ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #group-projects{
   display: flex;
   
