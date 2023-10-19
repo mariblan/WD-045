@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 /* NAVBAR START */
 /* NAVBAR END */
 
@@ -23,5 +30,52 @@
 /* MAIN END */
 
 /* FOOTER START */
-
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #C1D9EE;
+  width: 100vw;
+}
+#coffeeLogo{
+  width: 60px;
+  height: 60px;
+}
+.social-logo{
+  width: 30px;
+  height: 30px;
+}
+.FooterSocials{
+  margin: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.ContactClickables{
+  margin: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.CoffeeClickable{
+  margin: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  gap: 2rem;
+}
+.WDFOOTER{
+  margin-top: 1rem;
+  font-size: 24px;
+  font-weight: bold;
+}
 /* FOOTER END */
