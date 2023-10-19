@@ -20,6 +20,26 @@
 #week-main{
   text-align: center;
   background-color: #eeee;
+  padding:5rem;
+  
+  
+}
+
+#top{
+  display: flex;
+  justify-content: center;
+}
+
+.top-sections{
+  background-color:#D9D9D9 ;
+  margin:1rem;
+  width:50%;
+}
+
+.practiceHtmlCss{
+  background-color: #D9D9D9;
+  margin: 1rem;
+
 }
 
 /* weeks end */
