@@ -14,7 +14,6 @@
 .week {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  padding: 0.5rem;
 }
 
 .week > .week1Img > img {
@@ -37,9 +36,16 @@
   display: grid;
 }
 
-.descriptWeek1, .descriptWeek2 {
+.descriptText {
   color: rgb(3, 38, 69);
   background-color: beige;
+  padding: 0.5rem;
+  border-radius: 25px;
+}
+
+.descriptWeek1, .descriptWeek2 {
+  /* color: rgb(3, 38, 69);
+  background-color: beige; */
 }
 
 .descriptionWeek > p {
