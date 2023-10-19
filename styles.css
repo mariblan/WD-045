@@ -1,7 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 /* NAVBAR START */
 /* NAVBAR END */
@@ -14,87 +14,88 @@
 
 /* about start */
 
-
 .main {
-  display: flex;
-  justify-content: center;
-  margin: 1em;
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.472);
-  padding: 1x;
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: center;
+	margin: 1em;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.472);
+	padding: 1x;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.4);
 }
 
 .square {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1em;
 }
 
 .quote h3 {
-  margin: 5px;
-  padding: 10px;
-  text-align: center;
-  color: black;
-  font-weight: bold;
-  text-shadow: 0px 3px 5px #05a2f7;
+	margin: 5px;
+	padding: 10px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	text-shadow: 0px 3px 5px #05a2f7;
 }
 
 .picture {
-  display: flex;
-  width: max-content;
-  height: max-content;
-  background-color: transparent;
-  
+	display: flex;
+	width: max-content;
+	height: max-content;
+	background-color: transparent;
 }
 
 .picture img {
-  background-image: url(./resources/dpbackground.png);
-  margin: 10px;
-  padding: 20px;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  background-size: 190px;
-  background-position-x: -40px;
-  background-position-y: -28px;
-  background-color: transparent;
-  box-shadow: 0px 0px 30px 2px #0596f7;
+	background-image: url(./resources/dpbackground.png);
+	margin: 10px;
+	padding: 20px;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	object-fit: cover;
+	background-size: 190px;
+	background-position-x: -40px;
+	background-position-y: -28px;
+	background-color: transparent;
+	box-shadow: 0px 0px 30px 2px #0596f7;
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 2px;
-  margin: 2px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 2px;
+	margin: 2px;
 }
 
 .name {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 .alumni {
-  background-image: url(./resources/smallbackground.png);
-  margin-bottom: 10px;
-  padding: 5px;
-  background-position: center;
-  background-size: 20px;
-  background-repeat: no-repeat;
+	background-image: url(./resources/smallbackground.png);
+	margin-bottom: 10px;
+	padding: 5px;
+	background-position: center;
+	background-size: 20px;
+	background-repeat: no-repeat;
 }
 
 .description p {
-  margin: 5px;
-  padding: 10px;
-  border: solid black;
-  border-radius: 25px;
-
+	margin: 5px;
+	padding: 10px;
+	border: solid black;
+	border-radius: 25px;
 }
+
+
+  
+
 
 /* about end */
 
