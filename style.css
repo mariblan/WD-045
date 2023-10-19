@@ -16,10 +16,33 @@
   grid-template-rows: 1fr 1fr;
 }
 
+.week1Img {
+  justify-self: center;
+  align-self: center;
+}
+
+.week2Img {
+  justify-self: center;
+  align-self: center;
+}
+
+.week button {
+  justify-self: center;
+  display: block;
+  margin:  0 auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  cursor:pointer;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size:20px;
+}
+
 .week > .week1Img > img {
   display: block;
   width: 60%;
   height: 60%;
+  
   object-fit: cover;
   margin: 0 auto;
 }
@@ -40,6 +63,7 @@
   color: rgb(3, 38, 69);
   background-color: beige;
   padding: 0.5rem;
+  margin: 1rem;
   border-radius: 25px;
 }
 
