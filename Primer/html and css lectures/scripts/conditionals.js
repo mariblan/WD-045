@@ -1,34 +1,18 @@
-// Console methods
-console.log('Hello world!');
-console.warn('Hi');
-console.error('Hi');
+// CONDITIONALS
+// Operators that can be used for conditions
 
-// Variables
+// && = and => both conditions have to be true for the block to be read
+// || = or => one of the two conditions has to be true
+// ! = written in front of the variable it implies that it is a falsy value.
+// === checks that the value and data type are the same.
+// == checks that the value is the same, but not the data type.
+// !== checks that the value is not equal to.
 
 const myName = 'Mari';
-let yourName = 'Patricia' + ' Maria';
-let herHisName;
+let age = 26;
 
-console.log(myName);
-console.log(yourName);
-console.log(herHisName);
-
-herHisName = `Jorge and Patricia and ${myName}`;
-console.log(herHisName);
-
-yourName += ' Ben';
-console.log(yourName);
-
-yourName = 'Ben';
-console.log(yourName);
-
-// Conditionals and Operators
-// && = and
-// || = or
-// ! = falsy value or not the same as
-
-// IF/ELSE
-if (myName === 'Patricia Maria') {
+// IF/ELSE conditionals
+if (myName === 'Patricia') {
   console.log(myName);
 } else if (myName !== 'John' || myName === 'Maria') {
   console.log(myName);
