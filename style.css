@@ -69,8 +69,8 @@
 }
 
 .descriptWeek1, .descriptWeek2 {
-  /* color: rgb(3, 38, 69);
-  background-color: beige; */
+  justify-self: center;
+  align-self: center;
 }
 
 .descriptionWeek > p {
