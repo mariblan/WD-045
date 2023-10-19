@@ -33,7 +33,7 @@
 }
 
 .picture img {
-    background-image: url(Primer/resources/dpbackground.png);
+    background-image: url(./resources/dpbackground.png);
     margin: 10px;
     padding: 20px;
     width: 120px;
@@ -62,7 +62,7 @@
 }
 
 .alumni {
-    background-image: url(Primer/resources/smallbackground.png);
+    background-image: url(./resources/smallbackground.png);
     margin-bottom: 10px;
     padding: 5px;
     background-position: center;
