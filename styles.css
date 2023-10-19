@@ -186,6 +186,26 @@ h1 {
 /* index end */
 
 /* about start */
+.aboutbora__headline {
+  color: #274352;
+}
+
+.aboutbora__body {
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  flex-direction: column;
+  gap: 25px
+}
+
+.aboutbora__information {
+  width: 50%;
+  background-color: #C1DEEE;
+  padding: 25px;
+  border-radius: 25px;
+} 
 
 .main-content {
   display: flex;
