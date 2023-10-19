@@ -36,6 +36,7 @@
   text-decoration: none;
   border-radius: 15px;
   font-size:20px;
+  border-style: none;
 }
 
 .week > .week1Img > img {
@@ -74,4 +75,13 @@
 
 .descriptionWeek > p {
   padding: 1rem;
+}
+
+.advertisement {
+  width: 70%;
+  height: 70%;
+  background-color: antiquewhite;
+  border-radius: 25px;
+  justify-self: center;
+  align-self: center;
 }
