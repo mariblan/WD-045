@@ -91,7 +91,95 @@ h1 {
 /* NAVBAR END */
 
 /* MAIN START */
+.main {
+  display: grid;
+  gap: 0.5rem;
+  background-image: url('img/indexBaground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
 
+
+.week {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.week1Img {
+  justify-self: center;
+  align-self: center;
+}
+
+.week2Img {
+  justify-self: center;
+  align-self: center;
+}
+
+.week button {
+  justify-self: center;
+  display: block;
+  margin:  0 auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  cursor:pointer;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size:20px;
+  border-style: none;
+}
+
+.week > .week1Img > img {
+  display: block;
+  width: 60%;
+  height: 60%;
+  
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.week > .week2Img > img {
+  display: block;
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.descriptionWeek {
+  display: grid;
+}
+
+.descriptText {
+  color: rgb(3, 38, 69);
+  background-color: beige;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 25px;
+}
+
+.descriptWeek1, .descriptWeek2 {
+  justify-self: center;
+  align-self: center;
+}
+
+.descriptionWeek > p {
+  padding: 1rem;
+}
+
+.advertisement {
+  width: 70%;
+  height: 70%;
+  background-color: antiquewhite;
+  border-radius: 25px;
+  justify-self: center;
+  align-self: center;
+  margin: 1rem;
+}
+/* MAIN End */
 /* index start  */
 
 /* index end */
@@ -205,85 +293,6 @@ h1 {
 
 }
 
-.main {
-	display: flex;
-	justify-content: center;
-	margin: 1em;
-	overflow: hidden;
-	background-color: rgba(255, 255, 255, 0.472);
-	padding: 1x;
-	border-radius: 10px;
-	box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.4);
-}
-
-.square {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 1em;
-}
-
-.quote h3 {
-	margin: 5px;
-	padding: 10px;
-	text-align: center;
-	color: black;
-	font-weight: bold;
-	text-shadow: 0px 3px 5px #05a2f7;
-}
-
-.picture {
-	display: flex;
-	width: max-content;
-	height: max-content;
-	background-color: transparent;
-}
-
-.picture img {
-	background-image: url(./resources/dpbackground.png);
-	margin: 10px;
-	padding: 20px;
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
-	object-fit: cover;
-	background-size: 190px;
-	background-position-x: -40px;
-	background-position-y: -28px;
-	background-color: transparent;
-	box-shadow: 0px 0px 30px 2px #0596f7;
-}
-
-.info {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	padding: 2px;
-	margin: 2px;
-}
-
-.name {
-	font-size: 24px;
-	font-weight: bold;
-	margin-bottom: 10px;
-}
-
-.alumni {
-	background-image: url(./resources/smallbackground.png);
-	margin-bottom: 10px;
-	padding: 5px;
-	background-position: center;
-	background-size: 20px;
-	background-repeat: no-repeat;
-}
-
-.description p {
-	margin: 5px;
-	padding: 10px;
-	border: solid black;
-	border-radius: 25px;
-}
-
 .hobby-and-skills {
 	display: flex;
 	justify-content: center;
@@ -368,7 +377,7 @@ footer {
 .AboutContactClickables {
   display: inline-block;
   position: flex;
-  left: 5%;
+  margin-left: 10%;
 }
 
 .FooterClickables ul {
@@ -414,10 +423,11 @@ footer {
 }
 .AboutContactClickables li {
   background-color: lightblue;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 5px 5px;
+  border-radius: 10px;
   font-size: 18px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.932);
+  Margin: 5px;
 
 }
 .AboutContactClickables li:hover {
