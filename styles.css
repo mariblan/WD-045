@@ -96,6 +96,11 @@ h1 {
     transition: color 0.2s ease-in-out;
 }
 
+@keyframes swingDown {
+  0% { transform: rotateX(-90deg); }
+  100% { transform: rotateX(0); }
+}
+
 /* NAVBAR END */
 
 /* MAIN START */
