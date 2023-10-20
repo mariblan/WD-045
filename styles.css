@@ -232,7 +232,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  border: 1px solid red;
+ /*border: 1px solid red; */
   border-radius: 5px;
   min-height: 20vh;
   flex-wrap: wrap;
@@ -417,7 +417,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  border: 1px solid red;
+  /*border: 1px solid red; */
   border-radius: 5px;
   min-height: 20vh;
   flex-wrap: wrap;
