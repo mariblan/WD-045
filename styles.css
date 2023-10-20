@@ -109,11 +109,11 @@ h1 {
   background-image: url('img/indexBaground.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  /* grid-template-columns: 1fr 1fr 1fr; */
   grid-auto-columns: 100% 1fr;
-  grid-template-rows: repeat(1fr 0.5fr) ;
+  grid-template-rows: repeat(auto);
   height: 100vh;
   width: 100%;
+  height: max-content;
 }
 
 
@@ -635,3 +635,10 @@ footer{
   transform: scale(1.3);
 }
 /* FOOTER END */
+
+@media screen and (min-width: 769px){
+  .mainContent {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+}
