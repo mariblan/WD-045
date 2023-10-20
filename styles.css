@@ -30,6 +30,10 @@ h1 {
   margin-left: 25px;
 }
 
+.logo-link, .img-logo {
+  display: block;
+}
+
 
 .hamburger-menu {
  
