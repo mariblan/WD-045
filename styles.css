@@ -238,7 +238,7 @@ h1 {
 }
 
 .block {
-  background: #d3d3d3;
+/*  background: #d3d3d3;*/
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -425,7 +425,7 @@ h1 {
 
 
 .block {
-  background: #d3d3d3;
+ /*  background: #d3d3d3;*/
   padding: 20px;
   display: flex;
   flex-direction: column;
