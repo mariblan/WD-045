@@ -180,6 +180,13 @@ h1 {
 /* index end */
 
 /* about start */
+.experience ul{
+  margin: 2rem;
+}
+
+.socialmedia-icons i{
+  font-size: 50px;
+}
 .aboutbora__headline {
   color: #274352;
 }
