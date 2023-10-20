@@ -3,6 +3,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 /* NAVBAR START */
 
 header {
@@ -97,8 +104,8 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 0.1fr;
-  height: 70vh;
+  grid-template-rows: repeat(1fr 0.5fr) ;
+  height: 100vh;
 }
 
 
@@ -671,96 +678,50 @@ h1 {
 /* MAIN END */
 
 /* FOOTER START */
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #f9f9f9;
-  padding: 20px 0;
-  text-align: center;
+.diamond-background{
+  height: 3vw;
 }
-
-.WDFOOTER {
-  display: block;
-  margin: auto;
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #C1D9EE;
+  width: 100vw;
 }
-
-.FooterClickables {
-  display: inline-block;
-  margin: 0 auto;
-}
-
-.CoffeeClickable {
-  margin-top: 5px;
-}
-
-.CoffeeClickable a {
-  display: block;
-}
-
-.FooterSocials {
-  display: inline-block;
-  position: absolute;
-  right: 5%;
-}
-
-.AboutContactClickables {
-  display: inline-block;
-  position: flex;
-  margin-left: 10%;
-}
-
-.FooterClickables ul {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0;
-}
-
-.FooterClickables li {
-  margin-right: 20px;
-  display: inline-block;
-}
-
-.FooterClickables img {
+#coffeeLogo{
+  align-items: center;
   width: 30px;
   height: 30px;
-  object-fit: cover;
+  border-radius: 50%
+}
+.social-logo{
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
-.diamond-background {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(59, 59, 87, 0.315);
-  padding: 20px 0;
-  text-align: center;
-  z-index: -2;
-  box-shadow: 0 0 30px rgb(0, 0, 0);
+.FooterSocials{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-left: auto;
 }
-
-#Facebook:hover{
+.ContactClickables{
+  margin: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  width: 90vw;
+}
+.WDFOOTER{
+  margin-top: 1rem;
+  font-size: 24px;
+  font-weight: bold;
+}
+.social-logo:hover{
   transform: scale(1.3);
-}
-#Youtube:hover{
-  transform: scale(1.3);
-}
-
-#Twitter:hover{
-  transform: scale(1.3);
-}
-#Discord:hover{
-  transform: scale(1.3);
-}
-.AboutContactClickables li {
-  background-color: lightblue;
-  padding: 5px 5px;
-  border-radius: 10px;
-  font-size: 18px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.932);
-  Margin: 5px;
-
-}
-.AboutContactClickables li:hover {
-  background-color: lightcoral;
 }
 /* FOOTER END */
